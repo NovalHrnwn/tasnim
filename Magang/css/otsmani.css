@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f8f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(90deg, #eedfa3, #b58e00);
+  padding: 1rem;
+  color: white;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.navbar a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.navbar a:hover {
+  color: #000;
+}
+
+.detail-container {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+  background: #fff;
+}
+
+.judul-produk {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #2c3e50;
+}
+
+.detail-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.gambar-utama img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.deskripsi-produk h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.deskripsi-produk p {
+  margin-bottom: 1rem;
+}
+
+.fasilitas p {
+  margin: 0.3rem 0;
+}
+
+.harga span {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #e67e22;
+}
+
+.aksi {
+  margin-top: 1rem;
+}
+
+.btn-wa {
+  background: #25d366;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 30px;
+  display: inline-block;
+  transition: 0.3s ease;
+}
+
+.btn-wa:hover {
+  background: #1ebc59;
+}
+
+.footer {
+  background: #2c3e50;
+  color: white;
+  padding: 4rem 2rem;
+  margin-top: 3rem;
+}
+
+.footer .box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.poin-highlight {
+  margin: 1rem 0;
+  padding-left: 1.2rem;
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.poin-highlight li {
+  margin-bottom: 0.5rem;
+}
+
+
+.footer .box h3 {
+  color: #f1c40f;
+  margin-bottom: 1rem;
+}
+
+.footer .box a {
+  color: #ddd;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.footer .box a:hover {
+  color: #f1c40f;
+  text-decoration: underline;
+}
+
+.footer .credit {
+  text-align: center;
+  margin-top: 3rem;
+  border-top: 1px solid rgba(255,255,255,0.2);
+  padding-top: 1rem;
+  font-size: 1rem;
+  color: #ccc;
+}
+.footer .credit span {
+  color: #f1c40f;
+}
+
+.kembali-wrapper {
+  margin-top: 2rem;
+}
+
+.btn-kembali {
+  display: inline-block;
+  background: #ccc;
+  color: #333;
+  padding: 0.6rem 1.2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn-kembali:hover {
+  background: #999;
+  color: white;
+}
